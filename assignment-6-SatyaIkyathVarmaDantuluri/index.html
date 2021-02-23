@@ -1,0 +1,43 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link href="dist/main.css" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Todo List</title>
+        </head>
+        <body>
+            <header>
+                <h1>Satya's Todo List</h1>
+            </header>
+            <button onclick="myFunction()">Add Display</button>
+            <div id='fromDisplay'>
+            <form id="todoForm">
+                <label for="title"><b>Title</b></label>
+                <input type="text" class="todo-input" placeholder="Title" name="title" required>
+                <label for="desc"><b>Description</b></label>
+                <input type="text" class="todo-input-Desc" placeholder="Description" name="desc" required>
+                <label for="date"><b>Date</b></label>
+                <input type="date" class="todo-input-Date" name="date" required>
+                <label for="time"><b>Time</b></label>
+                <input type="time" class="todo-input-Time" name="time" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="todo-button" type="submit">
+                    <i>Add</i>
+                    
+                </button>
+            </form>
+        </div>
+            <div class="todo-container">
+                <ul class="todo-list">
+                
+                </ul>
+                    
+            </div>
+            <div class="todo-detail">
+
+            </div>
+            
+            <script src='javascript/app.js'></script>
+        </body>
+        </html>

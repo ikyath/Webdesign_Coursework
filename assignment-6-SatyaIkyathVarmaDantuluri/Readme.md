@@ -1,0 +1,28 @@
+**ToDo List Web APP**
+
+An webpage for adding todoitems, deleting, marking completed item.This app has the following functionalities.
+
+1. This app is built using javascript,html,scss,json.
+2. Included forms and validations.
+3. In this app you can add a todoItem(Title,Description,Date,Time), delete and mark as completed.
+4. Data is fetched using an XHR call from a JSON File.
+
+**Execution**
+- Clone the repositiory using the "git clone" command.
+- First step is to convert it to a npm project, for that run the "npm init" command. 
+- Install using the "npm install" command.
+- Now the project can be run using the "npm run" command.
+
+**License**
+
+Copyright 2020 Satya Ikyath Varma Dantuluri
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+**Contributor**
+
+Satya Ikyath Varma Dantuluri.
