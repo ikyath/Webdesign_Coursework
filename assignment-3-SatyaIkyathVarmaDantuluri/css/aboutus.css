@@ -1,0 +1,59 @@
+.img_aboutus{
+        display: inline-block;
+        margin-left: 20em;
+
+        /* height: 60%;
+        width: 50%; */
+}
+
+.inline_3{
+    display: inline;
+    width: 50%;
+}
+
+.article_2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: large;
+    text-align: left;
+
+  
+}
+
+.article_us {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    font-size: large;
+    height: 200px;
+    width: 100%;
+    display: block;
+    
+}
+
+
+.inline_float{
+    display: inline;
+    width: 50%;
+    
+}
+
+.aboutUs{
+    font-style: italic;
+    color: lightgray;
+}
+
+.headerus{
+    color: darkcyan;
+}
+
+.h2us{
+    color:darkcyan;
+}
+
+.h4us{
+    color: lightgray;
+}
+

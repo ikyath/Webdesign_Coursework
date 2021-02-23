@@ -1,0 +1,53 @@
+.cHeader{
+    position: relative;
+    text-align: center;
+    color: darkcyan;
+    font-size: x-large;
+    text-align: left;
+}
+
+.centered_Home {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.rimg {
+        height: 50%;
+        width: 50%;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 5em;
+        /* padding: 2em; */
+        
+        
+      }
+
+
+
+.wheader{
+    color:darkcyan;
+    text-align: center;
+    padding-right: 7em;
+    
+
+}
+
+.wfooter{
+    
+    text-align: center;
+    padding-right: 7em;
+   
+
+}
+
+
+
+.inline{
+    display: inline;
+    width: 33.33%;
+}
+
+

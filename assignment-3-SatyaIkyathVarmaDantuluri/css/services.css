@@ -1,0 +1,58 @@
+.inline_2{
+    display: inline;
+    width: 25%;
+}
+
+.service{
+    background-color:whitesmoke;
+    text-align:center;
+}
+
+.box3{
+    background-color:darkcyan;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+    
+    font-size: 16px;
+    border-radius: 30px 30px;
+}
+
+.box4{
+    background-color:darkcyan;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+    height:20px;
+    font-size: 16px;
+    border-radius: 30px 30px;
+}
+
+.box5{
+    background-color:darkcyan;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    height:50px;
+    font-size: 16px;
+    border-radius: 30px 30px;
+}
+
+
+
+.box_services{
+    background-color: whitesmoke;
+    display: block;
+}

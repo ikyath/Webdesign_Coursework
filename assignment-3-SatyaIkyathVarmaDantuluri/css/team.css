@@ -1,0 +1,27 @@
+.circular-square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
+  .centered_team {
+    position: absolute;
+    padding-top: 5%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .inline-4{
+    display: inline-block;
+    width:33.33%;
+
+}
+
+.teamheader{
+    color:darkcyan;
+
+}
+
+  
