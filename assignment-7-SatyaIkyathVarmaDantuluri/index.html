@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles/main.css" rel="stylesheet">
+        <title>
+            SpreadSheet
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <h2>
+                SpreadSheet
+            </h2>
+        </div>
+        <div class="over">
+            <br>
+<!-- The div block to cluster all the functionalities in the spreasheet -->
+            <div class="first">
+                <button class="button" id = "addRow"> Add Row </button>
+                <button class="button" id = "deleteRow"> Delete Row </button>  
+                <button class="button" id = "addColumn"> Add Column </button>
+                <button class="button" id = "deleteColumn"> Delete Column </button>   
+                <button class="button" id = "export"> Export as CSV </button> 
+                <button id="uploadpopup" class="button" >Upload CSV</button>
+                <br><br>
+            </div>
+<!-- The div block for the pop up window to upload the csv file -->
+            <div id ="upload" class ="second">
+                <img src="./images/close.png" id="uploadhide" width="30px" height="30px">
+                <p> Please Upload your file </p>
+                <br>
+                <input type="file" id="fileUpload" class="but"/>
+                <input type="button" id="uploadcsv" value="Upload CSV" class="button"/>
+                <br>
+            </div> 
+        </div>
+        <br>
+        <!-- Div block to import the rxjs script and js file -->
+        <div>
+            <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+            <script src="./main.js"></script>
+        </div>
+        
+
+    </body>
+</html>
