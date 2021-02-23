@@ -1,0 +1,11 @@
+
+
+@function pow($base,$expo){
+    $res:1;
+    @for $_ from 1 through $expo{
+        $res : $res * $base;
+
+    }
+    @return $res;
+
+}

@@ -1,0 +1,92 @@
+.img_aboutus{
+    display: inline-block;
+    margin-left: 20em;
+
+    /* height: 60%;
+    width: 50%; */
+}
+
+.inline_3{
+display: inline;
+width: 50%;
+}
+
+.article_2 {
+position: relative;
+text-align: center;
+color: white;
+font-size: large;
+text-align: left;
+
+
+}
+
+.article_us {
+position: relative;
+text-align: center;
+color: white;
+background-color: $cell_bg_color;
+font-size: large;
+height: 200px;
+width: 100%;
+display: block;
+
+}
+
+
+.inline_float{
+display: inline;
+width: 50%;
+
+}
+
+.aboutUs{
+font-style: italic;
+color: lightgray;
+}
+
+.headerus{
+color: $cell_bg_color;
+}
+
+.h2us{
+color: $cell_bg_color;
+// padding-top: 0ex;
+}
+
+.h4us{
+color: lightgray;
+line-height: 0px;
+}
+
+.contus {
+    width:600px;
+    height:80px;
+    margin:auto;
+    // padding: 10px;
+    padding-right: 8%;
+    // background-color: yellowgreen;
+}
+
+//container for vertical columns
+.usgrid{
+  display: grid;
+  grid-template-columns: 100px 1fr ;
+  gap: 20px;
+
+}
+
+//each cell in grid
+.ucell {
+    // background-color: red; 
+  
+}
+
+ucell{
+    width:10%;
+}
+
+ucell2{
+    width:100%;
+}
+

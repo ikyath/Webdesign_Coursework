@@ -1,0 +1,86 @@
+.cHeader{
+    position: relative;
+    text-align: center;
+    color: $cell_bg_color;
+    font-size: x-large;
+    text-align: left;
+}
+
+.centered_Home {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.rimg {
+        height: 50%;
+        width: 50%;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 5em;
+        /* padding: 2em; */
+        
+        
+      }
+
+
+
+.wheader{
+    color:darkcyan;
+    text-align: center;
+    padding-right: 7em;
+    
+
+}
+
+.wfooter{
+    
+    text-align: center;
+    padding-right: 7em;
+   
+
+}
+
+
+
+.inline{
+    display: inline;
+    width: 33.33%;
+}
+
+.timg{
+    width: 100%;
+}
+
+.conwhy {
+    width:1200px;
+    height:350px;
+    margin:auto;
+    // padding: 10px;
+    padding-right: 8%;
+    // background-color: yellowgreen;
+}
+
+//container for vertical columns
+.ygrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  .ycell {
+    background-color: white;
+    
+  
+}
+
+}
+
+//each cell in grid
+
+
+.ycell1{
+    width:450px;
+}
+
+

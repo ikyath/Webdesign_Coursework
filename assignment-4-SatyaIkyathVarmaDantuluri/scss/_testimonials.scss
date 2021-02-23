@@ -1,0 +1,224 @@
+.boxtest{
+    text-align:center;
+    /* padding: 10px; */
+    background-color: $cell_bg_color;
+    border:none;
+    color: white;
+    padding-left: 10px;
+    /* padding: 15px 32px; */
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    display: block;
+    background-color:white;
+}
+
+.boxint
+
+{
+    display: inline-block;
+    width: 30%;
+    background-color: $cell_bg_color;
+    
+}
+
+.circular-square-1 {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5%;
+    height :15%;
+  }
+
+input.name{
+    /* border: none; */
+    display: inline-block;
+    width:75%;
+    height:60px;
+    color:gray;
+    border:None;
+    background-color: whitesmoke;
+}
+
+input.email{
+    /* border: none; */
+    display: inline-block;
+    width:75%;
+    height:60px;
+    color:gray;
+    border:None;
+    background-color: whitesmoke;
+}
+
+input.phone{
+    /* border: none; */
+    display: inline-block;
+    width:75%;
+    height:60px;
+    color:gray;
+    border:None;
+    background-color: whitesmoke;
+}
+
+textarea{
+    width:75%;
+    height:80px;
+    background-color:whitesmoke;
+    border:None;
+}
+
+
+
+.qbutton{
+    display: inline-block;
+    width:75%;
+    height:60px;
+    font-size: large;
+    background-color: $cell_bg_color;
+    color:white;
+    border :none;
+}
+
+.inlineblog{
+    display: inline;
+    width:33%;
+}
+
+.aligntest{
+    text-align: center;
+}
+
+.inline-project{
+    display: inline;
+    width:25%;
+}
+
+/* .himg:hover{
+    border: greenyellow;
+    
+
+} */
+
+.container {
+    position: relative;
+    width: 99%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $cell_bg_color;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  //Conatiner for grid
+  .containerus {
+      width:1200px;
+      height:300px;
+      margin:auto;
+      padding: 10px;
+    //   background-color: yellowgreen;
+  }
+
+  //container for vertical columns
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+
+  }
+
+  //each cell in grid
+  .cell {
+    
+  }
+
+  .cell1{
+      width:350px;
+
+
+  }
+
+  .cell2{
+      justify-content: left;
+    //   background-color: red;
+      
+
+  }
+
+  .cell3{
+
+  }
+
+  .cell4{
+
+  }
+
+  a{
+      padding-bottom: 0ex;
+      text-align: left;
+  }
+
+  .lcolor{
+      color: $cell_bg_color;
+  }
+
+  .conblog {
+    width:1200px;
+    height:350px;
+    margin:auto;
+    // padding: 10px;
+    // padding-left: 7%;
+    // background-color: yellowgreen;
+}
+
+//container for vertical columns
+.bloggrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 100px;
+
+}
+
+//each cell in grid
+.blogcell {
+    // background-color: red;
+    
+  
+}
+
+
+
+

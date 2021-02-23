@@ -1,0 +1,23 @@
+{
+  "name": "assignment-4-satyaikyathvarmadantuluri",
+  "version": "1.0.0",
+  "description": "CSS & SCSS",
+  "main": "index.js",
+  "scripts": {
+    
+    "sass" : "node-sass ./scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-4-SatyaIkyathVarmaDantuluri.git"
+  },
+  "author": "SatyaIkyathVarma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-4-SatyaIkyathVarmaDantuluri/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-4-SatyaIkyathVarmaDantuluri#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

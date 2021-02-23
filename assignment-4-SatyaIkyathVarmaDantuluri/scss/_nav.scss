@@ -1,0 +1,72 @@
+.navheader{
+    padding-left: 10em;
+    font-size: larger;
+    color:gray;
+      
+}
+
+
+
+.navheader_2{
+    color:darkcyan;
+    
+}
+
+.header{
+    font-size:30px;
+    float: left;
+    padding-top:10px;
+    padding-left:6.5em;
+    color: $cell_bg_color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+// Inherited from above code 
+
+.navheader_1{
+    @extend %message-shared;
+    vertical-align: -1em;
+    border-bottom: black;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left:10%;
+    padding-right:5%;
+    overflow: hidden;
+    background-color:white;
+    vertical-align: center;
+  }
+  
+li {
+    float: left; 
+    
+}
+
+a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color:$cell_bg_color;
+}
+
+.sticky{
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    background-color:white;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}

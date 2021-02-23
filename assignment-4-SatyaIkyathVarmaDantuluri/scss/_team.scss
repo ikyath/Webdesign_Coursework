@@ -1,0 +1,51 @@
+.circular-square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
+  .centered_team {
+    position: absolute;
+    padding-top: 5%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .inline-4{
+    display: inline-block;
+    width:33.33%;
+
+}
+
+.teamheader{
+    color:darkcyan;
+
+}
+
+.conteam {
+    width:1200px;
+    height:350px;
+    margin:auto;
+    // padding: 10px;
+    padding-left: 7%;
+    // background-color: yellowgreen;
+}
+
+//container for vertical columns
+.tgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 100px;
+
+}
+
+//each cell in grid
+.teamcell {
+    // background-color: red;
+    
+  
+}
+
+  
